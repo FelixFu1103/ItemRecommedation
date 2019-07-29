@@ -71,7 +71,7 @@ public class TicketMasterClient {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+     
 		try {
 			// Extract events array only.
 			JSONObject obj = new JSONObject(responseBody.toString());

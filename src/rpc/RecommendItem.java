@@ -25,7 +25,7 @@ public class RecommendItem extends HttpServlet {
      */
     public RecommendItem() {
         super();
-        // TODO Auto-generated constructor stub
+        // TODO Auto-generated constructor stub 
     }
 
 	/**
