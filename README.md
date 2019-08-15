@@ -8,4 +8,4 @@
      •	Designed relational and **NoSQL** databases (MySQL, MongoDB) to capture data from Ticketmaster API
      •	Designed **content-based** recommendation algorithms and deployed it to Amazon EC2
   ### The front page of this web application is as follow:
-    ![front page](/webContent/front_page.png)
+    ![front page][https://raw.githubusercontent.com/HaoFu1103/ItemRecommedation/master/WebContent/Front_page.png]
