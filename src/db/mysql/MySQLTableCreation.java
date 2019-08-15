@@ -1,10 +1,9 @@
-package db.mysql;
 
+package db.mysql;
 
 import java.sql.DriverManager;
 import java.sql.Statement;
 import java.sql.Connection;
-import java.sql.SQLException;
 
 public class MySQLTableCreation {
 	// Run this as Java application to reset db schema.
@@ -18,6 +17,7 @@ public class MySQLTableCreation {
 			if (conn == null) {
 				return;
 			}
+			
 			// Step 2 Drop tables in case they exist.
 						Statement statement = conn.createStatement();
 						String sql = "DROP TABLE IF EXISTS categories";
@@ -72,9 +72,10 @@ public class MySQLTableCreation {
 						statement.executeUpdate(sql);
 
 						// Step 4: insert fake user 1111/3229c1097c00d497a0fd282d586be050
-						sql = "INSERT INTO users VALUES('1111', '3229c1097c00d497a0fd282d586be050', 'John', 'Smith')";
+						sql = "INSERT INTO users VALUES('1111', '3229c1097c00d497a0fd282d586be050', 'Hao', 'Fu')";
 						statement.executeUpdate(sql);
-			
+
+
 			conn.close();
 			System.out.println("Import done successfully");
 
